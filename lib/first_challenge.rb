@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
-  
+  contacts.each do |person, data|
+  puts "#{person}: #{data}"
     
 
 
