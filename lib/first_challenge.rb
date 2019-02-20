@@ -20,9 +20,9 @@ def first_challenge
     puts "#{attribute}: #{value}"
     
  if attribute == :favorite_icecream_flavors
-      value.each do |flavor|
+      value.delete do |"strawberry"|
        
-        puts "#{flavor}"
+        puts "#{strawberry}"
       end
     end
   end
